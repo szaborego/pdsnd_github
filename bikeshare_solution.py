@@ -6,8 +6,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# List of cities the user can choose from
 cities = ['chicago', 'new york city', 'washington']
+
+# List of months the user can choose from (not case sensitive!)
 months = ['january', 'february', 'march', 'april', 'may', 'june','all']
+
+# The days the user can choose from (not case sensitive, using the 3 first characters will not work!)
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday','all']
 
 def get_filters():
@@ -234,8 +239,8 @@ def show_data(df):
         # print rows from data_frame from i to i + 5 rows
         data = df.iloc[i: i + 5]
         print(data)
-        
-        
+
+
 def main():
     while True:
         city, month, day = get_filters()
