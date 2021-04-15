@@ -12,6 +12,7 @@ cities = ['chicago', 'new york city', 'washington']
 # List of months the user can choose from (not case sensitive!)
 months = ['january', 'february', 'march', 'april', 'may', 'june','all']
 
+# The days the user can choose from (not case sensitive, using the 3 first characters will not work!)
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday','all']
 
 def get_filters():
