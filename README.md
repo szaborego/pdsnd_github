@@ -9,7 +9,7 @@ Control Version Project Submission
 ### Description
 Bikeshare project takes 3 user inputs and calculating statistics according to the arguments given
 
-Second input is Month - according to this argument the query will filter on the given month in the given csv file
+Third input is Day - according to this argument the query will filter on the given day in the given csv file
 
 ### Files used
 chicago.csv
