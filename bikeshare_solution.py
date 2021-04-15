@@ -9,6 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 # List of cities the user can choose from
 cities = ['chicago', 'new york city', 'washington']
 
+# List of months the user can choose from (not case sensitive!)
 months = ['january', 'february', 'march', 'april', 'may', 'june','all']
 
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday','all']
